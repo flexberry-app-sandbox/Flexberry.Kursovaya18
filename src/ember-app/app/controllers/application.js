@@ -28,25 +28,25 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya18-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'table',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-клиент-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-клиент-l.title'),
-            icon: 'list',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-расторж-договора-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расторж-договора-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расторж-договора-l.title'),
-            icon: 'edit',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-затр-время-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-затр-время-l.title'),
-            icon: 'folder open',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-заключ-договора-l',
@@ -58,13 +58,13 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya18-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расчет-ост-врем-l.title'),
-            icon: 'book',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-перечень-услуг-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-перечень-услуг-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-перечень-услуг-l.title'),
-            icon: 'table',
+            icon: 'suitcase',
             children: null
           }]
         }
