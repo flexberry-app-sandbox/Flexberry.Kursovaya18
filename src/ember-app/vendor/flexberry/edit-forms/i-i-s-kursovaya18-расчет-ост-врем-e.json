@@ -1,5 +1,14 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": "заключДоговора",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ОказКонсулт.ЗаключДоговора",
+      "projection": "ЗаключДоговораL",
+      "detailModelName": "i-i-s-kursovaya18-оказ-консульт"
+    }
+  ],
   "external": false,
   "caption": "Расчет ост врем",
   "name": "IISKursovaya18РасчетОстВремE",

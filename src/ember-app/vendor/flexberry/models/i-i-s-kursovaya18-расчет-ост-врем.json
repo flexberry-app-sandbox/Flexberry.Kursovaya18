@@ -67,7 +67,15 @@
         }
       ],
       "belongsTo": [],
-      "hasMany": []
+      "hasMany": [
+        {
+          "projectionName": "ОказКонсультE",
+          "caption": "Оказ консулт",
+          "name": "оказКонсулт",
+          "relatedTo": "i-i-s-kursovaya18-оказ-консульт",
+          "inverse": null
+        }
+      ]
     },
     {
       "name": "РасчетОстВремL",

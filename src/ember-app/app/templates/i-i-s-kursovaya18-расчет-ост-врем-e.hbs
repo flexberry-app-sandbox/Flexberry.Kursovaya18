@@ -54,4 +54,18 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "использовано" "message")}}
   </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya18-расчет-ост-врем-e.оказКонсулт-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="оказКонсултGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.оказКонсулт
+      content=model.оказКонсулт
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "оказКонсулт" "isInvalid") "error")
+      data-test-i-i-s-kursovaya18-расчет-ост-врем-e-оказКонсулт=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "оказКонсулт" "message")}}
+  </div>
 </form>

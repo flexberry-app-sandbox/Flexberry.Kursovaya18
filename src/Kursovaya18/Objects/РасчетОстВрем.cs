@@ -33,6 +33,8 @@ namespace IIS.Kursovaya18
             "Было",
             "Доступно",
             "Использовано"})]
+    [AssociatedDetailViewAttribute("РасчетОстВремE", "ОказКонсулт", "ОказКонсультE", true, "", "Оказ консулт", true, new string[] {
+            ""})]
     [View("РасчетОстВремL", new string[] {
             "Было",
             "Доступно",

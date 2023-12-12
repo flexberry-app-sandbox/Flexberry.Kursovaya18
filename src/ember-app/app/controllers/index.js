@@ -22,43 +22,43 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya18-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'briefcase',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-клиент-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-клиент-l.title'),
-            icon: 'edit',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-расторж-договора-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расторж-договора-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расторж-договора-l.title'),
-            icon: 'tasks',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-затр-время-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-затр-время-l.title'),
-            icon: 'archive',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-заключ-договора-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-заключ-договора-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-заключ-договора-l.title'),
-            icon: 'phone',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-расчет-ост-врем-l.title'),
-            icon: 'phone',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-kursovaya18-перечень-услуг-l',
             caption: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-перечень-услуг-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya18.i-i-s-kursovaya18-перечень-услуг-l.title'),
-            icon: 'archive',
+            icon: 'table',
             children: null
           }]
         }

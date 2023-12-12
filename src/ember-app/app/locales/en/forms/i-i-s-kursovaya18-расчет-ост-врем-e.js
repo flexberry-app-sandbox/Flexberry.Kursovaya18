@@ -2,5 +2,6 @@ export default {
   caption: 'Расчет ост врем',
   'было-caption': '',
   'доступно-caption': '',
-  'использовано-caption': ''
+  'использовано-caption': '',
+  'оказКонсулт-caption': 'Оказ консулт'
 };
