@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ДирОтдПоРабСКл",
+      "projection": "ДирОтдПоРабСКлL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиент",
+      "projection": "КлиентL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ЗаключДоговора",
+      "projection": "ЗаключДоговораL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Расторж договора",
+  "name": "IISKursovaya18РасторжДоговораE",
+  "className": "РасторжДоговораE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya18-расторж-договора",
+      "modelProjection": "РасторжДоговораE"
+    }
+  ]
+}
